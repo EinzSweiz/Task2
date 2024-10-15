@@ -7,6 +7,7 @@ AWS_SECRET_ACCESS_KEY = settings.AWS_SECRET_ACCESS_KEY
 AWS_STORAGE_BUCKET_NAME = settings.AWS_STORAGE_BUCKET_NAME
 AWS_S3_REGION_NAME = settings.AWS_S3_REGION_NAME
 
+
 @dataclass
 class S3Client:
     aws_access_key_id: str = AWS_ACCESS_KEY_ID
